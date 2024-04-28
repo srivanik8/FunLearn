@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&family=Space+Grotesk:wght@300..700&display=swap');
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sora {
+  font-family: "Sora", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-optical-sizing: auto;
+}
+.space-grotesk {
+  color: #fff;
+  letter-spacing: 1px;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 1.125rem;
+  font-style: normal;
+}
+nav ul {
+  border: #fff solid 2px;
+  border-radius: 120px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+nav ul li {
+  list-style: none;
+  display: inline;
+  padding: 0 30px;
+  font-size: 100%;
+  font-weight: 400;
+  font-style: normal;
+  font-optical-sizing: auto;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-family: "Sora", sans-serif;
+}
+.main > .title {
+  font-size: 400%;
+  font-weight: 700;
+  font-style: normal;
+  color: #5EFC8D;
+  letter-spacing: 1px;
+  font-family: "Space Grotesk", sans-serif;
+  text-align: center;
+}
+.main > .subtitle {
+  font-size: 100%;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+  letter-spacing: 1px;
+  font-family: "Sora", sans-serif;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    background-color: #5EFC8D;
+    color: #141421;
+    border: none;
+    border-radius: 120px;
+    padding: 10px 20px;
+    font-size: 70%;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Space Grotesk", sans-serif;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.textarea{
+  width: 50%;
+  height: 200px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 70%;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Sora", sans-serif;
+  letter-spacing: 1px;
+  color: #141421;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  margin: 10px 0;
+}
+.main > .mid-title{
+  font-size: 200%;
+  font-weight: 700;
+  font-style: normal;
+  color: #5EFC8D;
+  letter-spacing: 1px;
+  font-family: "Space Grotesk", sans-serif;
+  text-align: center;
+}
+Link{
+  text-decoration: none;
+  color: #fff;
+}
+.text{
+  width: 30%;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 70%;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Sora", sans-serif;
+  letter-spacing: 1px;
+  color: #141421;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  margin: 10px 0;
+}
+.ul > li{
+  list-style: none;
+  display: inline;
+  padding: 0 30px;
+  font-size: 100%;
+  font-weight: 400;
+  font-style: normal;
+  font-optical-sizing: auto;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-family: "Sora", sans-serif;
+}
