@@ -11,3 +11,12 @@ I encountered challenges while deploying my website on GoDaddy and storing data 
 
 ## What's next for UterusCare
 The journey continues for FunLearn! We plan to expand our content library, integrate more fun learning paths, host more engaging community events, and feature even more expert voices in our podcast series. Additionally, we're exploring partnerships with study platforms  to offer various learning paths and resources. Our ultimate goal is to become the go-to resource for studying, continuously enhancing the support and information we provide. Stay tuned for an exciting journey ahead!
+
+## Setup of local environment
+1. Fork this repo
+2. Run the command `git clone https://github.com/srivanik8/FunLearn`
+3. Navigate to `FunLearn` file in the repo
+4. Add your Gemini API key wherever necessary
+5. run command 'npm run dev'
+6. The frontend will start to run
+   
