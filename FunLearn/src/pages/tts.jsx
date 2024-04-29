@@ -42,7 +42,7 @@ const TextToSpeech = () => {
       <>
         <Header />
         <h1 className='main' >
-            <span className='mid-title'>Auditary Learning</span>
+            <span className='mid-title'>AI Whisper</span>
             <textarea placeholder='Enter the content you want to listen to...'
                 className="textarea"
                 value={text}

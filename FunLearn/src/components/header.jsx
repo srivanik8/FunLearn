@@ -7,9 +7,9 @@ function Header() {
         
         <nav>
           <ul className="sora">
-          <Link to="/"><li>Home</li></Link>
-            <li>Features</li>
-            <li>Github</li>
+          <Link to="/" className="link"><li>Home</li></Link>
+          <Link to="features" className="link"><li>Features</li></Link>
+          <Link to="https://github.com/srivanik8/FunLearn" className="link"><li>Github</li></Link>
           </ul>
         </nav>
     );
