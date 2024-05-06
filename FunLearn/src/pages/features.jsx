@@ -15,7 +15,6 @@ function Features() {
                 <span className="flex-row">
                 <Link to="/tts"><button className="btn" style={{backgroundColor: '#8987f4'}}>AI whisper</button></Link>
                 <Link to="/quizify"><button className="btn" style={{backgroundColor: '#8987f4'}}>Quizify</button></Link>
-                <Link to="https://donenote.study/"><button className="btn" style={{backgroundColor: '#8987f4'}}>DoneNote</button></Link>
             </span>
             </h1>
         </>  
