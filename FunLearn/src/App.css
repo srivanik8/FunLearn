@@ -6,6 +6,13 @@ nav{
     align-items: center;
 }
 
+
+@media (min-width:80px) and (max-width: 280px) {
+  /* Your CSS styles here */
+  .main  {
+    padding-left: 40%;
+  }
+}
 .sora {
   font-family: "Sora", sans-serif;
   font-weight: 400;
@@ -41,7 +48,7 @@ nav ul li {
   font-family: "Sora", sans-serif;
 }
 .main > .title {
-  font-size: 400%;
+  font-size: 100%;
   font-weight: 700;
   font-style: normal;
   color: #5EFC8D;
