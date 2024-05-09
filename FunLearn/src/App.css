@@ -1,18 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&family=Space+Grotesk:wght@300..700&display=swap');
 
+
+@media (min-width: 300px) and (max-width: 380px) {
+  /* Your CSS styles here */
+  .main{
+    padding-left: 25%;
+  }
+}
+@media (min-width: 250px) and (max-width: 300px) {
+  /* Your CSS styles here */
+  .main{
+    padding-left: 60%;
+  }
+}
+@media (min-width: 200px) and (max-width: 250px) {
+  /* Your CSS styles here */
+  .main{
+    padding-left: 80%;
+  }
+}
+@media (min-width: 140px) and (max-width: 200px) {
+  /* Your CSS styles here */
+  .main{
+    padding-left: 120%;
+  }
+}
+@media (min-width: 50px) and (max-width: 140px) {
+  /* Your CSS styles here */
+  .main{
+    padding-left: 200%;
+  }
+}
+
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-
-@media (min-width:80px) and (max-width: 280px) {
-  /* Your CSS styles here */
-  .main  {
-    padding-left: 40%;
-  }
-}
 .sora {
   font-family: "Sora", sans-serif;
   font-weight: 400;

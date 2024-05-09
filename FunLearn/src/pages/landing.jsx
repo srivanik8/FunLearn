@@ -5,7 +5,7 @@ import "../App.css";
 
 function Landing() {
     return (
-        <>
+        <div className="box">
             <Header />
             <br />
             <br />
@@ -19,7 +19,7 @@ function Landing() {
                 </button></Link></span>
             </h1>
             
-        </>
+        </div>
     );
 }
 export default Landing;
