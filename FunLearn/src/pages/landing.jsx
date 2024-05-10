@@ -12,7 +12,7 @@ function Landing() {
             <br />
             <br />
             <h1 className="main">
-                <span className="title"> FunLearn </span>
+                <span className="mid-title"> FunLearn </span>
                 <span className="subtitle"> Ditch your boring textbooks & learn with FunLearn</span>
                 <span><Link to="/tts"><button className="btn">Get Started
 
