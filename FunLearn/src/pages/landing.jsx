@@ -17,8 +17,7 @@ function Landing() {
                 <span><Link to="/tts"><button className="btn">Get Started
 
                 </button></Link></span>
-            </h1>
-            
+            </h1>          
         </div>
     );
 }
